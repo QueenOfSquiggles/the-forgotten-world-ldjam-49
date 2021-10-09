@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/weird_turf.ase-06d259f5e9ef351073317ea2e2b855a7.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/tiles/weird_turf.ase"
+dest_files=[ "res://.import/weird_turf.ase-06d259f5e9ef351073317ea2e2b855a7.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

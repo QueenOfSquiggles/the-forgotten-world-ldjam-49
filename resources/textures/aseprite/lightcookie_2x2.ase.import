@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/lightcookie_2x2.ase-2856041f5177742bf68b93c81d77a95f.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/lightcookie_2x2.ase"
+dest_files=[ "res://.import/lightcookie_2x2.ase-2856041f5177742bf68b93c81d77a95f.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

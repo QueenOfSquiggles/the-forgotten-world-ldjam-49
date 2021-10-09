@@ -1,0 +1,13 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1633129835-918",
+			"name": "interact_temp_text",
+			"type": 0,
+			"value": "This is the default inteaction test. Should have been altered"
+		}
+	]
+}

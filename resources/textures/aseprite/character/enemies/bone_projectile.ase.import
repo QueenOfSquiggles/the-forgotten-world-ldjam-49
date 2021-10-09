@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/bone_projectile.ase-f426ece6c8a6a4fea39775d390d82bb0.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/enemies/bone_projectile.ase"
+dest_files=[ "res://.import/bone_projectile.ase-f426ece6c8a6a4fea39775d390d82bb0.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

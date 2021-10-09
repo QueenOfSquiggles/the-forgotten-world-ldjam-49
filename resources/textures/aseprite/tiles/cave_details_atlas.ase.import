@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/cave_details_atlas.ase-a5bc5aceac2b513780f168051e24991c.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/tiles/cave_details_atlas.ase"
+dest_files=[ "res://.import/cave_details_atlas.ase-a5bc5aceac2b513780f168051e24991c.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

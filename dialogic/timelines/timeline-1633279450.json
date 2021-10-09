@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1633279332.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you wanna look around..."
+		},
+		{
+			"character": "character-1633279325.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "give us a call"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1633279450.json",
+		"name": "sandp_combat_1"
+	}
+}

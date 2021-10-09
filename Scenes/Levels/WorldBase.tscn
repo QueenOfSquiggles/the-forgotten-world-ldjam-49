@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://resources/tilemap/world_tilemap.tres" type="TileSet" id=1]
+[ext_resource path="res://Scenes/Player/PlayerWorld.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Levels/WorldBase.gd" type="Script" id=3]
+
+[node name="World" type="Node2D" groups=[
+"level_root",
+]]
+script = ExtResource( 3 )
+
+[node name="BaseMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="DetailMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="WorldObjects" type="YSort" parent="."]
+
+[node name="PlayerWorld" parent="WorldObjects" groups=[
+"player",
+] instance=ExtResource( 2 )]
+position = Vector2( 168, 120 )

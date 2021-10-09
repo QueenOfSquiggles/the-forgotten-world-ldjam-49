@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://resources/battle_data/attacks/fred_attack_straight_pew_pew.tres" type="Resource" id=1]
+[ext_resource path="res://scripts/custom_resources/CombatTurn.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+timeline_name = "fred_combat_0"
+attack = ExtResource( 1 )

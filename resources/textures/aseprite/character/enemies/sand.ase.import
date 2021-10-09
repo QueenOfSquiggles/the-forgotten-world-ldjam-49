@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/sand.ase-33e24dc53580f139538bd36cf8e787e2.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/enemies/sand.ase"
+dest_files=[ "res://.import/sand.ase-33e24dc53580f139538bd36cf8e787e2.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

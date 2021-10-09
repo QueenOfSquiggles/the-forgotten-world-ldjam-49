@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/player_soul.ase-04eb16b48a52df811d7496d3aa4a9733.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/player_soul.ase"
+dest_files=[ "res://.import/player_soul.ase-04eb16b48a52df811d7496d3aa4a9733.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

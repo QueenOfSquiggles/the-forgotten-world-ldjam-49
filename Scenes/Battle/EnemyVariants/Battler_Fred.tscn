@@ -1,0 +1,27 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://resources/textures/aseprite/character/enemies/fred.aseprite" type="SpriteFrames" id=1]
+[ext_resource path="res://resources/battle_data/sequences/SequenceFred.tres" type="Resource" id=2]
+[ext_resource path="res://scripts/custom_resources/enemy_actions/MercyAction.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Battle/BattleEnemy.gd" type="Script" id=4]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 3 )
+action_name = "Get the banana"
+action_performed_message = "[shake]THE BANANA WAS GOT![/shake]"
+mercy_amount = 0.5
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 3 )
+action_name = "Drink the juice"
+action_performed_message = "Oops, it's acid"
+mercy_amount = 0.1
+
+[node name="BattleFred" type="AnimatedSprite" groups=[
+"enemy",
+]]
+frames = ExtResource( 1 )
+playing = true
+script = ExtResource( 4 )
+combat_sequence = ExtResource( 2 )
+combat_actions = [ SubResource( 1 ), SubResource( 2 ) ]

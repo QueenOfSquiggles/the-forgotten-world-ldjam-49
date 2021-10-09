@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/lichen_on_stone.ase-67ee782232c28e5d21b8ef4a106837ea.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/tiles/lichen_on_stone.ase"
+dest_files=[ "res://.import/lichen_on_stone.ase-67ee782232c28e5d21b8ef4a106837ea.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/parpel_tunnel.ase-6c587b2d68fb3f8a53934bd9da01405a.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/enemies/parpel_tunnel.ase"
+dest_files=[ "res://.import/parpel_tunnel.ase-6c587b2d68fb3f8a53934bd9da01405a.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

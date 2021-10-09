@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/confirmation_blip.ogg-71e309079da4d6cf09cca07d5c32a211.oggstr"
+
+[deps]
+
+source_file="res://resources/sound/sfx/confirmation_blip.ogg"
+dest_files=[ "res://.import/confirmation_blip.ogg-71e309079da4d6cf09cca07d5c32a211.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

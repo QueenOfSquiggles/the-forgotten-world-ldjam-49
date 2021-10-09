@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/menu_crystals.ogg-6a7fd3389dc469d38bd6c2dba3fa7279.oggstr"
+
+[deps]
+
+source_file="res://resources/sound/music_loops/menu_crystals.ogg"
+dest_files=[ "res://.import/menu_crystals.ogg-6a7fd3389dc469d38bd6c2dba3fa7279.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

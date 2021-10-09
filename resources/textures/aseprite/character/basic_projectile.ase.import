@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/basic_projectile.ase-ded1b9adbeb7a4fa454e89e976fe9fbd.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/basic_projectile.ase"
+dest_files=[ "res://.import/basic_projectile.ase-ded1b9adbeb7a4fa454e89e976fe9fbd.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

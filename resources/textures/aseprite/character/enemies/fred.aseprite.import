@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/fred.aseprite-df358361d353a429f0f9d1a82eed0323.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/enemies/fred.aseprite"
+dest_files=[ "res://.import/fred.aseprite-df358361d353a429f0f9d1a82eed0323.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

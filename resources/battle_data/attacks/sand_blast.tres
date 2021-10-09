@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/custom_resources/custom_attack_resources/StraightPewPew.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Battle/Projectiles/BoneProjectile.tscn" type="PackedScene" id=2]
+
+[resource]
+script = ExtResource( 1 )
+ProjectileScene = ExtResource( 2 )
+ROF = 0.4
+ProjectileSpeed = 250.0
+Duration = 6.0

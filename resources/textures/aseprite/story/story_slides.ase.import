@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/story_slides.ase-24cfcbe54c719d9bcd1cdb19b5ce8158.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/story/story_slides.ase"
+dest_files=[ "res://.import/story_slides.ase-24cfcbe54c719d9bcd1cdb19b5ce8158.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

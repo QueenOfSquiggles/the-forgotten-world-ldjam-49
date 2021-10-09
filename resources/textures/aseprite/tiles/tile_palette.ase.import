@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/tile_palette.ase-a5df873004540ee37c3c0767d0a4feea.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/tiles/tile_palette.ase"
+dest_files=[ "res://.import/tile_palette.ase-a5df873004540ee37c3c0767d0a4feea.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

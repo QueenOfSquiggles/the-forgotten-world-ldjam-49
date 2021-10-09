@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Interactables/WorldEnemies/WorldEnemy.tscn" type="PackedScene" id=1]
+
+[node name="Enemy_Fred" instance=ExtResource( 1 )]
+BattleScenePath = "res://Scenes/Battle/specific_battles/Battle_Fred.tscn"

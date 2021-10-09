@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/checkpoint.ase-2ed4c4a15de9916484492553b2204b2d.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/checkpoint.ase"
+dest_files=[ "res://.import/checkpoint.ase-2ed4c4a15de9916484492553b2204b2d.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

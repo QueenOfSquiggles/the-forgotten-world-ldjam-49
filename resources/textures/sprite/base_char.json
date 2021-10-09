@@ -1,0 +1,138 @@
+{ "frames": [
+   {
+    "filename": "base_char 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 12, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 1, "w": 12, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 1.aseprite",
+    "frame": { "x": 12, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 2.aseprite",
+    "frame": { "x": 23, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 3.aseprite",
+    "frame": { "x": 34, "y": 0, "w": 12, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 1, "w": 12, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 4.aseprite",
+    "frame": { "x": 46, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 5.aseprite",
+    "frame": { "x": 57, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 6.aseprite",
+    "frame": { "x": 68, "y": 0, "w": 10, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 10, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 7.aseprite",
+    "frame": { "x": 78, "y": 0, "w": 10, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 10, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 8.aseprite",
+    "frame": { "x": 88, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 9.aseprite",
+    "frame": { "x": 99, "y": 0, "w": 10, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 10, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 10.aseprite",
+    "frame": { "x": 109, "y": 0, "w": 10, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 10, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 11.aseprite",
+    "frame": { "x": 119, "y": 0, "w": 11, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 1, "w": 11, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "base_char 12.aseprite",
+    "frame": { "x": 130, "y": 0, "w": 10, "h": 15 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 1, "w": 10, "h": 15 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.29-x64",
+  "image": "base_char.png",
+  "format": "RGBA8888",
+  "size": { "w": 140, "h": 15 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Stand_down", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Walk_down", "from": 1, "to": 2, "direction": "forward" },
+   { "name": "Stand_up", "from": 3, "to": 3, "direction": "forward" },
+   { "name": "Walk_up", "from": 4, "to": 5, "direction": "forward" },
+   { "name": "Stand_right", "from": 6, "to": 6, "direction": "forward" },
+   { "name": "Walk_right", "from": 7, "to": 9, "direction": "forward" },
+   { "name": "Stand_left", "from": 10, "to": 10, "direction": "forward" },
+   { "name": "Walk_left", "from": 11, "to": 12, "direction": "forward" }
+  ]
+ }
+}

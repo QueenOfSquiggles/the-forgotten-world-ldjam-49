@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/custom_resources/CombatTurn.gd" type="Script" id=1]
+[ext_resource path="res://resources/battle_data/attacks/sand_blast.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+timeline_name = "sandp_combat_0"
+post_dialogue_pause = 0.5
+attack = ExtResource( 2 )

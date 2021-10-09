@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/socials.ase-f8fe4acadd2e52be80a2b97efc77e8ca.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/menu/socials.ase"
+dest_files=[ "res://.import/socials.ase-f8fe4acadd2e52be80a2b97efc77e8ca.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

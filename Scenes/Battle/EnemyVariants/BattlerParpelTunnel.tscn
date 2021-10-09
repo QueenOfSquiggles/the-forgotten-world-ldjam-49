@@ -1,0 +1,29 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/Battle/BattleEnemy.gd" type="Script" id=1]
+[ext_resource path="res://resources/textures/aseprite/character/enemies/parpel_tunnel.ase" type="SpriteFrames" id=2]
+[ext_resource path="res://resources/battle_data/sequences/SequenceParpelTunnel.tres" type="Resource" id=3]
+[ext_resource path="res://scripts/custom_resources/enemy_actions/MercyAction.gd" type="Script" id=4]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 4 )
+action_name = "Spaghetti"
+action_performed_message = "Spaghet?"
+mercy_amount = 0.1
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 4 )
+action_name = "Be impressed"
+action_performed_message = "OMG REALLY?! <3"
+mercy_amount = 0.2
+
+[node name="BattlerParpelTunnel" type="AnimatedSprite" groups=[
+"enemy",
+]]
+frames = ExtResource( 2 )
+frame = 1
+playing = true
+script = ExtResource( 1 )
+MaxHP = 4
+combat_sequence = ExtResource( 3 )
+combat_actions = [ SubResource( 1 ), SubResource( 2 ) ]

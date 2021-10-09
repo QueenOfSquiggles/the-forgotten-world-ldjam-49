@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Battle/BattleEnemy.gd" type="Script" id=2]
+
+[node name="BattleEnemy" type="Sprite" groups=[
+"enemy",
+]]
+region_enabled = true
+region_rect = Rect2( 17, 51, 16, 16 )
+script = ExtResource( 2 )

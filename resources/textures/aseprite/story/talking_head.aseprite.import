@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/talking_head.aseprite-b2e2471bd1b264180534565694417123.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/story/talking_head.aseprite"
+dest_files=[ "res://.import/talking_head.aseprite-b2e2471bd1b264180534565694417123.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

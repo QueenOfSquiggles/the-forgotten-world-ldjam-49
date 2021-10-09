@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/battle_screen_background_tile.ase-285b06200a94b51602d7a376c5005a21.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/battle/battle_screen_background_tile.ase"
+dest_files=[ "res://.import/battle_screen_background_tile.ase-285b06200a94b51602d7a376c5005a21.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

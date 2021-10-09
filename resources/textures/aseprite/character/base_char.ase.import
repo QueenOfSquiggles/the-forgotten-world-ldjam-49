@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/base_char.ase-8a5fc994e522d848ccc669032a7fe205.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/character/base_char.ase"
+dest_files=[ "res://.import/base_char.ase-8a5fc994e522d848ccc669032a7fe205.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=true

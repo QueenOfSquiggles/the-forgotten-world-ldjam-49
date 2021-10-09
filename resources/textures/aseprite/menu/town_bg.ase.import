@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/town_bg.ase-6efbbf8c598724fbef12c68f1fd58117.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/menu/town_bg.ase"
+dest_files=[ "res://.import/town_bg.ase-6efbbf8c598724fbef12c68f1fd58117.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

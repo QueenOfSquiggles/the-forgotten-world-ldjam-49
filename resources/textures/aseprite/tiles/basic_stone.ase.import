@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/basic_stone.ase-b13bd7a75e3127dbb6a567b42f988b63.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/tiles/basic_stone.ase"
+dest_files=[ "res://.import/basic_stone.ase-b13bd7a75e3127dbb6a567b42f988b63.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false

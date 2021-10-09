@@ -1,0 +1,16 @@
+[remap]
+
+importer="aseprite_animation_importer"
+type="SpriteFrames"
+path="res://.import/portal_arrow.ase-30b3a1a7e121e588f84fb6a645833dd7.res"
+
+[deps]
+
+source_file="res://resources/textures/aseprite/portal_arrow.ase"
+dest_files=[ "res://.import/portal_arrow.ase-30b3a1a7e121e588f84fb6a645833dd7.res" ]
+
+[params]
+
+extrude=false
+default_direction="Forward"
+default_loop=false
