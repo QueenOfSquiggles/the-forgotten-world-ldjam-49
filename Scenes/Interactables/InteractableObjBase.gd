@@ -9,7 +9,9 @@ const InteractionDialogueModular := "object_interaction"
 const SwapKey := "interact_temp_text"
 const InteractCooldownBuffer = 0.1
 
+
 # optionally generate the dialogue in code entirely. Might be better?
+onready var timer := $Timer
 
 var start_child_count := 0
 var busy := false
@@ -22,7 +24,8 @@ func _ready() -> void:
 
 func interact():
 	if _has_dialoge():
-		yield(get_tree().create_timer(0.01), "timeout")
+		timer.start(0.01)
+		yield(timer, "timeout")
 		return # abort so we don't stack
 	busy = true
 	var dialogue = _generate_dialogue()

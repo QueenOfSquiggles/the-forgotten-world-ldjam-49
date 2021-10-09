@@ -2,9 +2,11 @@ extends Interactable
 
 export (String, FILE) var BattleScenePath := "res://Scenes/Battle/specific_battles/BattleS_and_P.tscn"
 
+
 func interact():
 	if _has_dialoge():
-		yield(get_tree().create_timer(0.01), "timeout")
+		timer.start(0.01)
+		yield(timer, "timeout")
 		return # abort so we don't stack
 	busy = true
 	var dialogue = _generate_dialogue()

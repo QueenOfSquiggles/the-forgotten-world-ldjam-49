@@ -7,4 +7,4 @@ func do_turn(enemy : Node2D):
 	if not enemy:
 		yield(GameHelper.create_timer(0.01), "timeout")
 		return
-	yield(enemy.get_tree().create_timer(0.5), "timeout")
+	yield(GameHelper.create_timer(0.5), "timeout")

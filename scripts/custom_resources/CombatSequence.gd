@@ -21,7 +21,7 @@ func _ready() -> void:
 
 func do_turn(enemy : Node2D):
 	if not enemy:
-		yield(GameHelper.get_tree().create_timer(0.01), "timeout")
+		yield(GameHelper.create_timer(0.01), "timeout")
 		return
 	var t := turns[index] as CombatTurn
 	print("Doing turn : %s " % t.resource_name)

@@ -12,6 +12,8 @@ onready var main_buttons := $HBoxContainer
 
 onready var btn_spare := $HBoxContainer/BtnSpare
 
+onready var timer := $Timer
+
 var cur_choice = Choice.NONE
 var queue : CombatQueue
 
@@ -25,7 +27,8 @@ func do_player_turn():
 		yield(self, "ready")
 	btn_spare.disabled = not queue.can_spare()
 	while cur_choice == Choice.NONE:
-		yield(get_tree().create_timer(0.1), "timeout")
+		timer.start(0.1)
+		yield(timer, "timeout")
 	match cur_choice:
 		Choice.ATTACK:
 			queue.attack_enemies(1)
@@ -33,9 +36,9 @@ func do_player_turn():
 			yield(get_action_option(), "completed")
 		Choice.SPARE:
 			queue.spare_enemies()
-
 	print("Player Turn Complete!")
-	yield(get_tree().create_timer(0.2), "timeout")
+	timer.start(0.2)
+	yield(timer, "timeout")
 	cur_choice = Choice.NONE
 
 func get_action_option():

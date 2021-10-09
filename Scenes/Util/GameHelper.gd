@@ -13,6 +13,8 @@ var save_data : Dictionary = {
 var temp_save = null
 var portalID = null
 
+onready var timer :Timer = $Timer
+
 const SAVE_DATA_PATH := "user://savegame.save"
 
 signal on_player_health_change
@@ -141,14 +143,7 @@ func load_player_from_portal(portal : String) -> void:
 func hurt_player(dmg : int) -> void:
 	player_health -= dmg
 	emit_signal("on_player_health_change")
-	if player_health <= 0:
-		print("Player has died!")
-		# restart from last checkpoint
-		# delete temp save
-		temp_save = null
-		# change scene
-		get_tree().call_deferred("change_scene", "res://Scenes/Util/LoadCheckpoint.tscn")
 
-
-func create_timer(seconds : float) -> SceneTreeTimer:
-	return get_tree().create_timer(seconds)
+func create_timer(seconds : float) -> Timer:
+	timer.start(seconds)
+	return timer

@@ -9,7 +9,7 @@ var cleanup := []
 
 func do_turn(enemy : Node2D):
 	if not enemy:
-		yield(GameHelper.get_tree().create_timer(0.01), "timeout")
+		yield(GameHelper.create_timer(0.01), "timeout")
 		return
 	var time := 0.0
 	while time < Duration:

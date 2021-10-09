@@ -22,6 +22,9 @@ func do_round():
 				# if we spare the one and only enemy, don't prompt for actions again
 				break
 			yield(do_turn(), "completed")
+			if (GameHelper.player_health <= 0):
+				get_tree().change_scene("res://Scenes/Util/LoadCheckpoint.tscn")
+
 	else:
 		# combat over
 		GameHelper.load_from_temp_save()

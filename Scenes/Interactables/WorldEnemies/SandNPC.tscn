@@ -9,7 +9,7 @@ radius = 7.61658
 
 [node name="SandNPC" instance=ExtResource( 1 )]
 script = ExtResource( 3 )
-InteractionText = ""
+InteractionText = "I'm sorry [wave]little[/wave] one."
 
 [node name="CollisionShape2D" parent="." index="0"]
 position = Vector2( 7.90079, 8.59528 )
@@ -18,4 +18,5 @@ shape = SubResource( 1 )
 [node name="Sprite" parent="." index="1"]
 position = Vector2( 8, -3.96925 )
 frames = ExtResource( 2 )
+frame = 1
 centered = true
